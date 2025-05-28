@@ -351,6 +351,7 @@ textarea {
 form button[type="submit"] {
   width: 100%;
   margin-top: var(--spacing-lg);
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
 }
 
 /* Required field indicator */
