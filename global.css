@@ -351,12 +351,6 @@ textarea {
 form button[type="submit"] {
   width: 100%;
   margin-top: var(--spacing-lg);
-  background: linear-gradient(135deg, var(--accent), var(--primary));
-}
-
-form button[type="submit"]:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(184, 132, 79, 0.3);
 }
 
 /* Required field indicator */
