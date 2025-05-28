@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Etsy Veikala Ankete – LuceneX</title>
+<link rel="stylesheet" href="global.css">
+</head>
+<body>
+  <form action="https://formspree.io/f/xdkgqdkd" method="POST">
+    <h2>Etsy veikala uzsākšanas anketa</h2>
+    
+    <label for="name">Jūsu vārds un uzvārds:</label>
+    <input type="text" id="name" name="vards" required />
+
+    <label>Vai Jums jau ir esoši klienti vai pārdošanas pieredze?</label>
+    <div class="checkbox-group">
+      <label><input type="checkbox" name="pieredze" value="Sociālie tīkli" /> Jā, pārdodu sociālajos tīklos</label>
+      <label><input type="checkbox" name="pieredze" value="Citas platformas" /> Jā, pārdodu citās platformās</label>
+      <label><input type="checkbox" name="pieredze" value="Nav pieredzes" /> Nē, šis būs pirmais mēģinājums</label>
+      <label><input type="text" name="pieredze_cits" placeholder="Cits..." /></label>
+    </div>
+
+    <label>Kādi materiāli Jums jau ir sagatavoti?</label>
+    <div class="checkbox-group">
+      <label><input type="checkbox" name="materiali" value="Produktu fotogrāfijas" /> Produktu fotogrāfijas</label>
+      <label><input type="checkbox" name="materiali" value="Apraksti un cenas" /> Apraksti un cenas</label>
+      <label><input type="checkbox" name="materiali" value="Logo" /> Logo</label>
+      <label><input type="checkbox" name="materiali" value="Baneris" /> Baneris / grafika</label>
+      <label><input type="checkbox" name="materiali" value="Sociālie tīkli" /> Sociālo tīklu konti</label>
+      <label><input type="checkbox" name="materiali" value="Nekas no minētā" /> Nekas no minētā</label>
+      <label><input type="text" name="materiali_cits" placeholder="Cits..." /></label>
+    </div>
+
+    <label for="nozare">Uzņēmuma nozare:</label>
+    <input type="text" id="nozare" name="nozare" placeholder="Piemēram: rokdarbi, dizains..." />
+
+    <label for="produkti">Produktu apraksts:</label>
+    <textarea id="produkti" name="produkti" rows="4"></textarea>
+
+    <label for="uznemums">Uzņēmuma informācija (ja ir):</label>
+    <textarea id="uznemums" name="uznemums" rows="3"></textarea>
+
+    <label>Jūsu galvenais mērķis ar šo projektu:</label>
+    <div class="checkbox-group">
+      <label><input type="checkbox" name="merkis" value="Iegūt pirmos klientus" /> Iegūt pirmos klientus</label>
+      <label><input type="checkbox" name="merkis" value="Attīstīt zīmolu" /> Attīstīt zīmolu</label>
+      <label><input type="checkbox" name="merkis" value="Palielināt pārdošanu" /> Palielināt pārdošanu</label>
+      <label><input type="checkbox" name="merkis" value="Izmēģināt Etsy" /> Vienkārši izmēģināt Etsy</label>
+      <label><input type="text" name="merkis_cits" placeholder="Cits..." /></label>
+    </div>
+
+    <label for="email">E-pasta adrese:</label>
+    <input type="email" id="email" name="email" required />
+
+    <button type="submit">Iesniegt anketu</button>
+  </form>
+</body>
+</html>
