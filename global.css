@@ -365,6 +365,9 @@ textarea {
 
 /* Form button specific styling */
 form button[type="submit"] {
+    
+  border-radius: 12px;
+  border-width: 0cap;
   width: 100%;
   margin-top: var(--spacing-lg);
   letter-spacing: 0.5px;
